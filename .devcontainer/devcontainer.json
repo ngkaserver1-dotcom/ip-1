@@ -1,0 +1,21 @@
+{
+  "name": "PufferPanel Minecraft",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "docker compose up -d",
+  "forwardPorts": [8080, 5657, 25565],
+  "portsAttributes": {
+    "8080": {
+      "label": "PufferPanel UI",
+      "onAutoForward": "openBrowser"
+    },
+    "5657": {
+      "label": "PufferPanel Daemon"
+    },
+    "25565": {
+      "label": "Minecraft Server"
+    }
+  }
+}

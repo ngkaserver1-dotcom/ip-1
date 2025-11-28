@@ -1,0 +1,218 @@
+[DEBUG] 2025/11/28 10:20:31 Email template registered: emailChanged
+[DEBUG] 2025/11/28 10:20:31 Email template registered: oauthCreated
+[DEBUG] 2025/11/28 10:20:31 Email template registered: oauthDeleted
+[DEBUG] 2025/11/28 10:20:31 Email template registered: removedFromServer
+[DEBUG] 2025/11/28 10:20:31 Email template registered: accountCreation
+[DEBUG] 2025/11/28 10:20:31 Email template registered: passwordReset
+[DEBUG] 2025/11/28 10:20:31 Email template registered: otpEnabled
+[DEBUG] 2025/11/28 10:20:31 Email template registered: otpDisabled
+[DEBUG] 2025/11/28 10:20:31 Email template registered: addedToServer
+[DEBUG] 2025/11/28 10:20:31 Email template registered: deletedServer
+[DEBUG] 2025/11/28 10:20:31 Email template registered: login
+[DEBUG] 2025/11/28 10:20:31 Email template registered: passwordChanged
+[DEBUG] 2025/11/28 10:20:31 openat2 enabled
+[INFO] 2025/11/28 10:20:31 Generating new key
+[INFO] 2025/11/28 10:20:31 Loading existing key
+[INFO] 2025/11/28 10:20:31 Started SFTP Server on 0.0.0.0:5657
+[INFO] 2025/11/28 10:20:31 No server directory found, creating
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (5 handlers)
+[GIN-debug] GET    /daemon                   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.getStatusGET (6 handlers)
+[GIN-debug] HEAD   /daemon                   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.getStatusHEAD (6 handlers)
+[GIN-debug] OPTIONS /daemon                   --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/features          --> github.com/pufferpanel/pufferpanel/v2/web/daemon.getFeatures (6 handlers)
+[GIN-debug] PUT    /daemon/server/:id        --> github.com/pufferpanel/pufferpanel/v2/web/daemon.CreateServer (7 handlers)
+[GIN-debug] DELETE /daemon/server/:id        --> github.com/pufferpanel/pufferpanel/v2/web/daemon.DeleteServer (7 handlers)
+[GIN-debug] GET    /daemon/server/:id        --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetServerAdmin (7 handlers)
+[GIN-debug] POST   /daemon/server/:id        --> github.com/pufferpanel/pufferpanel/v2/web/daemon.EditServerAdmin (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id        --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/data   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetServerData (7 handlers)
+[GIN-debug] POST   /daemon/server/:id/data   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.EditServerData (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/data   --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/tasks  --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetServerTasks (7 handlers)
+[GIN-debug] POST   /daemon/server/:id/tasks  --> github.com/pufferpanel/pufferpanel/v2/web/daemon.CreateServerTask (7 handlers)
+[GIN-debug] PUT    /daemon/server/:id/tasks/:taskId --> github.com/pufferpanel/pufferpanel/v2/web/daemon.EditServerTask (7 handlers)
+[GIN-debug] DELETE /daemon/server/:id/tasks/:taskId --> github.com/pufferpanel/pufferpanel/v2/web/daemon.DeleteServerTask (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/tasks  --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/tasks/:taskId/run --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/reload --> github.com/pufferpanel/pufferpanel/v2/web/daemon.ReloadServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/reload --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/start  --> github.com/pufferpanel/pufferpanel/v2/web/daemon.StartServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/start  --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/stop   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.StopServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/stop   --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/kill   --> github.com/pufferpanel/pufferpanel/v2/web/daemon.KillServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/kill   --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/install --> github.com/pufferpanel/pufferpanel/v2/web/daemon.InstallServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/install --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/file/*filename --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetFile (7 handlers)
+[GIN-debug] PUT    /daemon/server/:id/file/*filename --> github.com/pufferpanel/pufferpanel/v2/web/daemon.PutFile (7 handlers)
+[GIN-debug] DELETE /daemon/server/:id/file/*filename --> github.com/pufferpanel/pufferpanel/v2/web/daemon.DeleteFile (7 handlers)
+[GIN-debug] POST   /daemon/server/:id/file/*filename --> github.com/pufferpanel/pufferpanel/v2/response.NotImplemented (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/file/*filename --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/console --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetLogs (7 handlers)
+[GIN-debug] POST   /daemon/server/:id/console --> github.com/pufferpanel/pufferpanel/v2/web/daemon.PostConsole (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/console --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/stats  --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetStats (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/stats  --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /daemon/server/:id/status --> github.com/pufferpanel/pufferpanel/v2/web/daemon.GetStatus (7 handlers)
+[GIN-debug] OPTIONS /daemon/server/:id/status --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server/:id/archive/*filename --> github.com/pufferpanel/pufferpanel/v2/web/daemon.Archive (7 handlers)
+[GIN-debug] GET    /daemon/server/:id/extract/*filename --> github.com/pufferpanel/pufferpanel/v2/web/daemon.Extract (7 handlers)
+[GIN-debug] GET    /daemon/socket/:id        --> github.com/pufferpanel/pufferpanel/v2/web/daemon.OpenSocket (8 handlers)
+[GIN-debug] CONNECT /daemon/socket/:id        --> github.com/gin-contrib/cors.New.func1 (7 handlers)
+[GIN-debug] OPTIONS /daemon/socket/:id        --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /daemon/server            --> github.com/pufferpanel/pufferpanel/v2/web/daemon.CreateServer (7 handlers)
+[GIN-debug] OPTIONS /daemon/server            --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] GET    /api/nodes                --> github.com/pufferpanel/pufferpanel/v2/web/api.getAllNodes (10 handlers)
+[GIN-debug] POST   /api/nodes                --> github.com/pufferpanel/pufferpanel/v2/web/api.createNode (10 handlers)
+[GIN-debug] OPTIONS /api/nodes                --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/nodes/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.getNode (10 handlers)
+[GIN-debug] PUT    /api/nodes/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.updateNode (10 handlers)
+[GIN-debug] DELETE /api/nodes/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.deleteNode (10 handlers)
+[GIN-debug] OPTIONS /api/nodes/:id            --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/nodes/:id/deployment --> github.com/pufferpanel/pufferpanel/v2/web/api.deployNode (10 handlers)
+[GIN-debug] OPTIONS /api/nodes/:id/deployment --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/servers              --> github.com/pufferpanel/pufferpanel/v2/web/api.searchServers (10 handlers)
+[GIN-debug] OPTIONS /api/servers              --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] POST   /api/servers              --> github.com/pufferpanel/pufferpanel/v2/web/api.createServer (11 handlers)
+[GIN-debug] GET    /api/servers/:serverId    --> github.com/pufferpanel/pufferpanel/v2/web/api.getServer (10 handlers)
+[GIN-debug] PUT    /api/servers/:serverId    --> github.com/pufferpanel/pufferpanel/v2/web/api.createServer (11 handlers)
+[GIN-debug] POST   /api/servers/:serverId    --> github.com/pufferpanel/pufferpanel/v2/web/api.createServer (11 handlers)
+[GIN-debug] DELETE /api/servers/:serverId    --> github.com/pufferpanel/pufferpanel/v2/web/api.deleteServer (11 handlers)
+[GIN-debug] PUT    /api/servers/:serverId/name/:name --> github.com/pufferpanel/pufferpanel/v2/web/api.renameServer (11 handlers)
+[GIN-debug] OPTIONS /api/servers/:serverId    --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/servers/:serverId/user --> github.com/pufferpanel/pufferpanel/v2/web/api.getServerUsers (10 handlers)
+[GIN-debug] OPTIONS /api/servers/:serverId/user --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/servers/:serverId/user/:email --> github.com/pufferpanel/pufferpanel/v2/web/api.getServerUsers (10 handlers)
+[GIN-debug] PUT    /api/servers/:serverId/user/:email --> github.com/pufferpanel/pufferpanel/v2/web/api.editServerUser (11 handlers)
+[GIN-debug] DELETE /api/servers/:serverId/user/:email --> github.com/pufferpanel/pufferpanel/v2/web/api.removeServerUser (11 handlers)
+[GIN-debug] OPTIONS /api/servers/:serverId/user/:email --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/servers/:serverId/oauth2 --> github.com/pufferpanel/pufferpanel/v2/web/api.getOAuth2Clients (10 handlers)
+[GIN-debug] POST   /api/servers/:serverId/oauth2 --> github.com/pufferpanel/pufferpanel/v2/web/api.createOAuth2Client (10 handlers)
+[GIN-debug] OPTIONS /api/servers/:serverId/oauth2 --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] DELETE /api/servers/:serverId/oauth2/:clientId --> github.com/pufferpanel/pufferpanel/v2/web/api.deleteOAuth2Client (10 handlers)
+[GIN-debug] OPTIONS /api/servers/:serverId/oauth2/:clientId --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/users                --> github.com/pufferpanel/pufferpanel/v2/web/api.searchUsers (10 handlers)
+[GIN-debug] POST   /api/users                --> github.com/pufferpanel/pufferpanel/v2/web/api.createUser (10 handlers)
+[GIN-debug] OPTIONS /api/users                --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/users/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.getUser (10 handlers)
+[GIN-debug] POST   /api/users/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.updateUser (10 handlers)
+[GIN-debug] DELETE /api/users/:id            --> github.com/pufferpanel/pufferpanel/v2/web/api.deleteUser (10 handlers)
+[GIN-debug] OPTIONS /api/users/:id            --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/users/:id/perms      --> github.com/pufferpanel/pufferpanel/v2/web/api.getUserPerms (10 handlers)
+[GIN-debug] PUT    /api/users/:id/perms      --> github.com/pufferpanel/pufferpanel/v2/web/api.setUserPerms (10 handlers)
+[GIN-debug] OPTIONS /api/users/:id/perms      --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/templates            --> github.com/pufferpanel/pufferpanel/v2/web/api.getAllTemplates (10 handlers)
+[GIN-debug] OPTIONS /api/templates            --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] POST   /api/templates/import     --> github.com/pufferpanel/pufferpanel/v2/web/api.getImportableTemplates (10 handlers)
+[GIN-debug] POST   /api/templates/import/:name --> github.com/pufferpanel/pufferpanel/v2/web/api.importTemplate (10 handlers)
+[GIN-debug] GET    /api/templates/:name      --> github.com/pufferpanel/pufferpanel/v2/web/api.getTemplate (10 handlers)
+[GIN-debug] DELETE /api/templates/:name      --> github.com/pufferpanel/pufferpanel/v2/web/api.deleteTemplate (10 handlers)
+[GIN-debug] PUT    /api/templates/:name      --> github.com/pufferpanel/pufferpanel/v2/web/api.putTemplate (10 handlers)
+[GIN-debug] OPTIONS /api/templates/:name      --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/self                 --> github.com/pufferpanel/pufferpanel/v2/web/api.getSelf (10 handlers)
+[GIN-debug] PUT    /api/self                 --> github.com/pufferpanel/pufferpanel/v2/web/api.updateSelf (10 handlers)
+[GIN-debug] OPTIONS /api/self                 --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/self/otp             --> github.com/pufferpanel/pufferpanel/v2/web/api.getOtpStatus (10 handlers)
+[GIN-debug] POST   /api/self/otp             --> github.com/pufferpanel/pufferpanel/v2/web/api.startOtpEnroll (10 handlers)
+[GIN-debug] PUT    /api/self/otp             --> github.com/pufferpanel/pufferpanel/v2/web/api.validateOtpEnroll (10 handlers)
+[GIN-debug] OPTIONS /api/self/otp             --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] DELETE /api/self/otp/:token      --> github.com/pufferpanel/pufferpanel/v2/web/api.disableOtp (10 handlers)
+[GIN-debug] OPTIONS /api/self/otp/:token      --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/self/oauth2          --> github.com/pufferpanel/pufferpanel/v2/web/api.getPersonalOAuth2Clients (10 handlers)
+[GIN-debug] POST   /api/self/oauth2          --> github.com/pufferpanel/pufferpanel/v2/web/api.createPersonalOAuth2Client (10 handlers)
+[GIN-debug] OPTIONS /api/self/oauth2          --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] DELETE /api/self/oauth2/:clientId --> github.com/pufferpanel/pufferpanel/v2/web/api.deletePersonalOAuth2Client (10 handlers)
+[GIN-debug] OPTIONS /api/self/oauth2/:clientId --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/settings/:key        --> github.com/pufferpanel/pufferpanel/v2/web/api.getSetting (10 handlers)
+[GIN-debug] PUT    /api/settings/:key        --> github.com/pufferpanel/pufferpanel/v2/web/api.setSetting (10 handlers)
+[GIN-debug] POST   /api/settings             --> github.com/pufferpanel/pufferpanel/v2/web/api.setSettings (10 handlers)
+[GIN-debug] OPTIONS /api/settings             --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/userSettings         --> github.com/pufferpanel/pufferpanel/v2/web/api.getUserSettings (10 handlers)
+[GIN-debug] PUT    /api/userSettings/:key    --> github.com/pufferpanel/pufferpanel/v2/web/api.setUserSetting (10 handlers)
+[GIN-debug] OPTIONS /api/userSettings         --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (9 handlers)
+[GIN-debug] GET    /api/config               --> github.com/pufferpanel/pufferpanel/v2/web/api.panelConfig (8 handlers)
+[GIN-debug] GET    /manifest.json            --> github.com/pufferpanel/pufferpanel/v2/web.webManifest (5 handlers)
+[GIN-debug] POST   /oauth2/token             --> github.com/pufferpanel/pufferpanel/v2/web/oauth2.handleTokenRequest (7 handlers)
+[GIN-debug] OPTIONS /oauth2/token             --> github.com/pufferpanel/pufferpanel/v2/response.CreateOptions.func1 (6 handlers)
+[GIN-debug] POST   /auth/login               --> github.com/pufferpanel/pufferpanel/v2/web/auth.LoginPost (7 handlers)
+[GIN-debug] POST   /auth/otp                 --> github.com/pufferpanel/pufferpanel/v2/web/auth.OtpPost (7 handlers)
+[GIN-debug] POST   /auth/register            --> github.com/pufferpanel/pufferpanel/v2/web/auth.RegisterPost (7 handlers)
+[GIN-debug] POST   /auth/reauth              --> github.com/pufferpanel/pufferpanel/v2/web/auth.Reauth (8 handlers)
+[GIN-debug] GET    /auth/publickey           --> github.com/pufferpanel/pufferpanel/v2/web/auth.GetToken (6 handlers)
+[GIN-debug] GET    /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] POST   /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PUT    /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PATCH  /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] HEAD   /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] OPTIONS /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] DELETE /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] CONNECT /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] TRACE  /proxy/daemon/server/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] GET    /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] POST   /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PUT    /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PATCH  /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] HEAD   /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] OPTIONS /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] DELETE /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] CONNECT /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] TRACE  /proxy/daemon/server/:id/*path --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] GET    /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] POST   /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PUT    /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] PATCH  /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] HEAD   /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] OPTIONS /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] DELETE /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] CONNECT /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] TRACE  /proxy/daemon/socket/:id  --> github.com/pufferpanel/pufferpanel/v2/web/proxy.proxyServerRequest (7 handlers)
+[GIN-debug] GET    /ace/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (7 handlers)
+[GIN-debug] HEAD   /ace/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (7 handlers)
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] GET    /fonts/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] HEAD   /fonts/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] GET    /img/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /img/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /js/*filepath             --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (7 handlers)
+[GIN-debug] HEAD   /js/*filepath             --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (7 handlers)
+[GIN-debug] GET    /theme/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] HEAD   /theme/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (6 handlers)
+[GIN-debug] GET    /favicon.png              --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] HEAD   /favicon.png              --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] GET    /favicon.ico              --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] HEAD   /favicon.ico              --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] GET    /apple-touch-icon.png     --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] HEAD   /apple-touch-icon.png     --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] GET    /service-worker.js        --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] HEAD   /service-worker.js        --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] GET    /service-worker-dev.js    --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[GIN-debug] HEAD   /service-worker-dev.js    --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (5 handlers)
+[INFO] 2025/11/28 10:20:31 Listening for HTTP requests on [::]:8080
+[INFO] 2025/11/28 10:21:48 SFTP connection from 172.18.0.1:45686
+[ERROR] 2025/11/28 10:21:48 sftpd connection error: ssh: overflow reading version string
+[GIN] 2025/11/28 - 10:21:50 | 200 |   39.722156ms |   152.59.27.200 | GET      "/"
+[GIN] 2025/11/28 - 10:21:51 | 200 |    1.789326ms |   152.59.27.200 | GET      "/css/app.a0765f39.css"
+[GIN] 2025/11/28 - 10:21:51 | 200 |   120.88438ms |   152.59.27.200 | GET      "/css/chunk-f4c33922.7ebd0237.css"
+[GIN] 2025/11/28 - 10:21:51 | 200 |   14.788416ms |   152.59.27.200 | GET      "/css/chunk-aeb07c80.de6470b0.css"
+[GIN] 2025/11/28 - 10:21:51 | 200 |  290.399242ms |   152.59.27.200 | GET      "/css/chunk-vendors.2aea4b8f.css"
+[GIN] 2025/11/28 - 10:21:51 | 200 |  337.266638ms |   152.59.27.200 | GET      "/js/app.6e720353.js"
+[GIN] 2025/11/28 - 10:21:51 | 200 |  353.073684ms |   152.59.27.200 | GET      "/js/chunk-vendors.ebc9c8a5.js"
+[GIN] 2025/11/28 - 10:21:51 | 200 |     552.239µs |   152.59.27.200 | GET      "/js/chunk-2d0ab43a.596666e7.js"
+[GIN] 2025/11/28 - 10:21:51 | 200 |     901.441µs |   152.59.27.200 | GET      "/js/chunk-2211c2b0.143407fd.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |    1.525634ms |   152.59.27.200 | GET      "/js/chunk-2d0ac239.17d155d1.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |    1.182575ms |   152.59.27.200 | GET      "/js/chunk-2d0b3289.6ee4b25b.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |     528.706µs |   152.59.27.200 | GET      "/js/chunk-2d0b6566.6e5cb89f.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |     960.164µs |   152.59.27.200 | GET      "/js/chunk-2d0cbae0.33bfe9b3.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |    5.371235ms |   152.59.27.200 | GET      "/js/chunk-2d0e8c9b.af4fea47.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   11.532914ms |   152.59.27.200 | GET      "/js/chunk-2d0e68b3.b97e08d9.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |    6.370759ms |   152.59.27.200 | GET      "/js/chunk-2d2086b7.4a1a94a1.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   31.811713ms |   152.59.27.200 | GET      "/js/chunk-3d89b4ab.19a1d245.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   67.771541ms |   152.59.27.200 | GET      "/js/chunk-3d8c34dc.bd6a06b1.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   62.989063ms |   152.59.27.200 | GET      "/js/chunk-3d8c43c0.6d58853c.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |    98.42227ms |   152.59.27.200 | GET      "/js/chunk-2fab3714.c91ac60f.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   16.802134ms |   152.59.27.200 | GET      "/js/chunk-2d210f7e.2d63e568.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |   66.940311ms |   152.59.27.200 | GET      "/js/chunk-aeb07c80.89a32016.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |      890.17µs |   152.59.27.200 | GET      "/js/chunk-f4c33922.dc935aac.js"
+[GIN] 2025/11/28 - 10:21:52 | 200 |     861.526µs |   152.59.27.200 | GET      "/favicon.png"

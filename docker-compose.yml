@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  pufferpanel:
+    image: pufferpanel/pufferpanel:latest
+    container_name: pufferpanel
+    restart: unless-stopped
+    ports:
+      - "8080:8080" # PufferPanel Web UI
+      - "5657:5657" # PufferPanel Daemon Port
+      - "25565-25575:25565-25575" # Range for Minecraft servers
+    volumes:
+      # These folders are CRITICAL for saving your data
+      - ./pufferpanel-data/etc:/etc/pufferpanel
+      - ./pufferpanel-data/lib:/var/lib/pufferpanel
+      - /var/run/docker.sock:/var/run/docker.sock
